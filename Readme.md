@@ -3,6 +3,7 @@
 - **Dev**: Bruno, Tony, Emerson, Plinio, Fernando, Mariana
 - **Support**: Murilo ...
 
+---
 # Proposed tech
 
 ## Endpoints
@@ -26,29 +27,28 @@
 ## Pseudo DB schema:
 ```json
     [{
-        shop: {
-            name: "3 Quarters Full Cafe",
-            address: "1789 Comox Street",
-            city: "Vancouver",
-            country: "CA",
-            phone: "123123",
-            description: "It may be called 3 Quarters Full, ...",
-            tags: ["delivery", "pickup","taiwaneese"],
-            active: true,
-            featured_image: "",
-            images: [],
-            support_options: [{
-                type: "gitfcard",
-                link: "https://www.instagram.com/3quartersfullcafe/"
+        "shop": {
+            "name": "3 Quarters Full Cafe",
+            "address": "1789 Comox Street",
+            "city": "Vancouver",
+            "country": "CA",
+            "phone": "123123",
+            "description": "It may be called 3 Quarters Full, ...",
+            "tags": ["delivery", "pickup","taiwaneese"],
+            "active": true,
+            "featured_image": "",
+            "images": [],
+            "support_options": [{
+                "type": "gitfcard",
+                "link": "https://www.instagram.com/3quartersfullcafe/"
             },{
-                type: "online_order",
-                link: "https://www.instagram.com/p/B97b-E9hBOg/"
+                "type": "online_order",
+                "link": "https://www.instagram.com/p/B97b-E9hBOg/"
             }]
         }
     }]
 ```
-  
-
+---
 # Data entry options: 
 1. Nominate a shop:
 - Shop:
