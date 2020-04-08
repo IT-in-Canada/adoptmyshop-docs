@@ -72,7 +72,7 @@
 ### Checklist for business validation:
 *Pending on ideas*
 - Is the business a real business?
-        (suggestion, we can use: Businness licence + full address to autenticate the business)
+    (suggestion, we can use: Businness licence + full address to autenticate the business)
 - Do they have a website? no
 - Online ordering? link? yes, doordash https://doordash.com/johnsa
 - Acceps gift card? link? no
