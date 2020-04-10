@@ -16,10 +16,10 @@
 - Authetication: https://auth0.com (JWT token)
 
 ## Tech stack:
-- API: node, express, jwt, mongoose (maybe just mongod)
-- Admin: react, sass, bootstrap - not necessarly need to be responsive
+- [API](https://github.com/IT-in-Canada/adoptmyshop-api): node, express, jwt, mongoose (maybe just mongod)
+- [Admin](https://github.com/IT-in-Canada/adoptmyshop-admin): react, sass, bootstrap - not necessarly need to be responsive
 
-- Web Client: 
+- [Web Client](https://github.com/IT-in-Canada/adoptmyshop-web): 
     1. Create a "widget like" structure, so that the existing UI can fetch data from our API and display on WP
         *e.g: city: api.adoptmyshop.org/cities*
     2. New UI: react, sass, bootstrap
