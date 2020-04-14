@@ -24,30 +24,100 @@
         *e.g: city: api.adoptmyshop.org/cities*
     2. New UI: react, sass, bootstrap
             
-## Pseudo DB schema:
+## Pseudo DB Schema:
+
+### Shops Schema
+
 ```json
     [{
         "shop": {
             "name": "3 Quarters Full Cafe",
             "address": "1789 Comox Street",
             "city": "Vancouver",
+            "province": "British Columbia",
+            "zip_code": "F5H 3S6",
             "country": "CA",
             "phone": "123123",
             "description": "It may be called 3 Quarters Full, ...",
-            "tags": ["delivery", "pickup","taiwaneese"],
+            "tags": ["delivery", "pickup","taiwanese"],
             "active": true,
             "featured_image": "",
             "images": [],
-            "support_options": [{
+            "support_sales_options": [{
                 "type": "gitfcard",
                 "link": "https://www.instagram.com/3quartersfullcafe/"
             },{
                 "type": "online_order",
                 "link": "https://www.instagram.com/p/B97b-E9hBOg/"
-            }]
+            }],
         }
     }]
 ```
+### Nominee Schema 
+```json
+    [{
+        "nominee": {
+            "business_name": "3 Quarters Full Cafe",
+            "business_url": "https://quarterscafe.ca",
+            "business_description": "It may be called 3 Quarters Full, ...",
+            "nominator_name": "Emily Yang",
+            "nominator_email": "emily_yang@gmail.com",
+            "nominator_facebook_url": "",
+            "nominator_twitter_url": "",
+            "nominator_instagram_url": "",
+            "nominator_linkedin_url": "",
+            "adopt_my_shop_listing_url": "",
+            "business_address": "1789 Comox Street",
+            "business_city": "Vancouver",
+            "business_province": "British Columbia",
+            "business_zip_code": "F5H 3S6",
+            "business_country": "CA",
+            "business_phone": "123123",
+            "tags": ["delivery", "pickup","taiwanese"],
+            "products_offered":["Taiwanese food", "Japanese food"],
+            "support_sales_options": [{
+                "type": "gitfcard",
+                "link": "https://www.instagram.com/3quartersfullcafe/"
+            },{
+                "type": "online_order",
+                "link": "https://www.instagram.com/p/B97b-E9hBOg/"
+            }],
+            "mention": "This is a family owned restaurant founded in 2018 .... ",
+            "not_mention": "",
+            "reference_materials": [{
+                "type": "News",
+                "link": "https://www.cbc.com/new_restaurants_north_america.php/"
+            },{
+                "type": "Event",
+                "link": "https://www.vaancouver_news.ca/canada_day_food_providers.php"
+            }],
+            "story_features_link": [{
+                "type": "Instagram",
+                "link": "https://www.instagram.com/p/A97b-F9hBST/"
+            },{
+                "type": "Facebook",
+                "link": "https://www.facebook.com/DeliciousTaiwaneseFood/photos/rpp.1257196241038716/2634847449940248/?type=3&theater"
+            }],
+            "social_posts": [{
+                "key_messaging": "Family preparing the meal",
+                "additional_campaign_materials": "https://www.instagram.com/p/A97b-F9hBST/"
+            },{
+                "key_messaging": "The bast food of Taiwan",
+                "additional_campaign_materials": "https://www.facebook.com/DeliciousTaiwaneseFood/photos/rpp.1257196241038716/2634847449940248/?type=3&theater"
+            }],
+            "featured_image": "",
+            "images": [],
+            "can_use_images": true,
+            "support_language": ["Mandarin","Japanese","English"],
+            "validation_history": " I tried to reach out Emily on Monday, 02 April 2020, but I had no answer from her. I will try again after 2 days."
+        }
+    }]
+```
+
+### Shops History 
+
+It is a schema-less and and the information saved on it will be the last data saved on Shops before the update. 
+
 ---
 # Data entry options: 
 1. Nominate a shop:
