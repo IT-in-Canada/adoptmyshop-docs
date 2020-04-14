@@ -24,13 +24,18 @@
         *e.g: city: api.adoptmyshop.org/cities*
     2. New UI: react, sass, bootstrap
             
-## Pseudo DB schema:
+## Pseudo DB Schema:
+
+### Shops Schema
+
 ```json
     [{
         "shop": {
             "name": "3 Quarters Full Cafe",
             "address": "1789 Comox Street",
             "city": "Vancouver",
+            "province": "British Columbia"
+            "zip_code": "F5H 3S6"
             "country": "CA",
             "phone": "123123",
             "description": "It may be called 3 Quarters Full, ...",
@@ -38,13 +43,14 @@
             "active": true,
             "featured_image": "",
             "images": [],
-            "support_options": [{
+            "support_sales_options": [{
                 "type": "gitfcard",
                 "link": "https://www.instagram.com/3quartersfullcafe/"
             },{
                 "type": "online_order",
                 "link": "https://www.instagram.com/p/B97b-E9hBOg/"
-            }]
+            }],
+
         }
     }]
 ```
