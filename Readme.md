@@ -31,15 +31,15 @@
 ```json
     [{
         "shop": {
-            "name": "3 Quarters Full Cafe",
-            "address": "1789 Comox Street",
-            "city": "Vancouver",
-            "province": "British Columbia",
-            "zip_code": "F5H 3S6",
-            "country": "CA",
-            "phone": "123123",
-            "description": "It may be called 3 Quarters Full, ...",
-            "tags": ["delivery", "pickup","taiwanese"],
+            "business_name": "3 Quarters Full Cafe",
+            "business_address": "1789 Comox Street",
+            "business_city": "Vancouver",
+            "business_province": "British Columbia",
+            "business_zip_code": "F5H 3S6",
+            "business_country": "CA",
+            "business_phone": "123123",
+            "business_description": "It may be called 3 Quarters Full, ...",
+            "business_tags": ["delivery", "pickup","taiwanese"],
             "active": true,
             "featured_image": "",
             "images": [],
@@ -73,7 +73,7 @@
             "business_zip_code": "F5H 3S6",
             "business_country": "CA",
             "business_phone": "123123",
-            "tags": ["delivery", "pickup","taiwanese"],
+            "business_tags": ["delivery", "pickup","taiwanese"],
             "products_offered":["Taiwanese food", "Japanese food"],
             "support_sales_options": [{
                 "type": "gitfcard",
