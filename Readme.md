@@ -38,6 +38,7 @@
             "business_zip_code": "F5H 3S6",
             "business_country": "CA",
             "business_phone": "123123",
+            "business_email" "contact@3quarters.ca"
             "business_description": "It may be called 3 Quarters Full, ...",
             "business_tags": ["delivery", "pickup","taiwanese"],
             "active": true,
@@ -50,6 +51,7 @@
                 "type": "online_order",
                 "link": "https://www.instagram.com/p/B97b-E9hBOg/"
             }],
+            "nominee_id": "5e980a38a87d7343deea00fa"
         }
     }]
 ```
@@ -73,6 +75,7 @@
             "business_zip_code": "F5H 3S6",
             "business_country": "CA",
             "business_phone": "123123",
+            "business_email" "contact@3quarters.ca"
             "business_tags": ["delivery", "pickup","taiwanese"],
             "products_offered":["Taiwanese food", "Japanese food"],
             "support_sales_options": [{
